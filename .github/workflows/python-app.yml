@@ -1,5 +1,4 @@
 import datetime
-actions:
 - login: |
     def login(user, password):
     """Handles user login."""
