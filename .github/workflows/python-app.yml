@@ -1,6 +1,7 @@
 import datetime
-
-def login():
+actions:
+- login: |
+    def login(user, password):
     """Handles user login."""
     while True:
         username = input("Username: ")
